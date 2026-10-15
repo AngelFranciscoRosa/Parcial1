@@ -21,4 +21,4 @@ jobs:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
         run: |
           npm install --global surge
-          surge --project ./ --domain tu-dominio-personalizado.surge.sh
+          surge --project ./ --domain parcial1-angel-rosa.surge.sh
